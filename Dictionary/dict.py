@@ -15,5 +15,5 @@ b=my_dict.values()
 print("all values:", b)
 
 # updating 
-my_dict["name"]="coder"
+my_dict["name"]="remo"
 print(f" after update : {my_dict}")

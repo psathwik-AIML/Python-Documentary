@@ -1,0 +1,17 @@
+# random module 
+# used for generating random numbers and things 
+import random 
+# gives random decimal b/w 0 and 1 
+n=random.random()
+print(n)
+# gives random integer b/w a and b 
+n=random.randint(1,6)
+print(n)
+# shuffles list 
+list=["a","b","c","d"]
+random.shuffle(list)
+print(list)
+
+# select on from list 
+ch=random.choice(list)
+print(ch)

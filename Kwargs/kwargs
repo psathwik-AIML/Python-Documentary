@@ -1,0 +1,8 @@
+# kwargs is used when we dont know arguments count it is stored in dictionary format 
+
+
+def student(**kwargs):
+    for key, value in kwargs.items():
+        print(key, ":", value)
+
+student(name="Sunny", age=22, grade="A")
